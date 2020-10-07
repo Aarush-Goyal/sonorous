@@ -1,0 +1,17 @@
+.ContactUsSection {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+form {
+  text-align: left;
+  width: 60vw;
+  margin: auto;
+}
+
+.TextField {
+  width: 100%;
+}
+
+.Button {
+  margin-left: auto;
+}

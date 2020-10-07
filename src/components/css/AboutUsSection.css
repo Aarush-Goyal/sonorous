@@ -1,0 +1,20 @@
+.AboutUsSection {
+  background-color: #343434;
+}
+.AboutUsSectionBody {
+  width: 85vw;
+  padding: 10%;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .AboutUsSectionBody {
+    width: 90vw;
+    padding: 10%;
+    margin: auto;
+    color: white;
+    font-size: 16px;
+  }
+}

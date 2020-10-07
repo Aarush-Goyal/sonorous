@@ -7,10 +7,6 @@ const CarouselItem = (props) => (
       src={props.imageURL}
       alt={props.altImgText}
     />
-    <div className="carousel-caption d-none d-md-block">
-      <h5>{props.titleCarousel}</h5>
-      <p>{props.pCarousel}</p>
-    </div>
   </div>
 );
 

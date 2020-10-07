@@ -1,0 +1,17 @@
+.EventList {
+  display: grid;
+  width: 80vw;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.headingText {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .EventList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,6 +1,7 @@
 import React from "react";
-import "./css/HeroSection.css";
 import CarouselItem from "./Carouseltem";
+import bannerImage from "../assets/banner1.jpg";
+import bannerImage2 from "../assets/banner2.jpg";
 const HeroSection = () => {
   return (
     <div
@@ -8,7 +9,7 @@ const HeroSection = () => {
       className="carousel slide"
       data-ride="carousel"
     >
-      <ol className="carousel-indicators">
+      {/* <ol className="carousel-indicators">
         <li
           data-target="#carouselExampleIndicators"
           data-slide-to="0"
@@ -16,25 +17,19 @@ const HeroSection = () => {
         ></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
+      </ol> */}
       <div className="carousel-inner">
         <CarouselItem
           active="active"
-          imageURL="https://source.unsplash.com/random"
+          imageURL={bannerImage2}
           altImgText="image-2"
           titleCarousel="first slide"
           pCarousel="lorem ipsum"
         />
         <CarouselItem
-          imageURL="https://source.unsplash.com/random"
+          imageURL={bannerImage}
           altImgText="image-2"
           titleCarousel="second slide"
-          pCarousel="lorem ipsum"
-        />
-        <CarouselItem
-          imageURL="https://source.unsplash.com/random"
-          altImgText="image-2"
-          titleCarousel="third slide"
           pCarousel="lorem ipsum"
         />
       </div>
